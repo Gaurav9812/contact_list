@@ -1,0 +1,41 @@
+/* p{
+    display: inline-block;
+}
+body{
+    
+    transition: all ease-in-out 5s;
+    margin: 0;
+
+}
+body:hover{
+    font-size: 1.1rem;
+    background:linear-gradient(black,red);
+} */
+body{
+    font-family: sans-serif,monospace;
+    font-size: 20px;
+}
+#outer-container
+{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.list-item{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 2px;
+}
+li{
+    display: flex;
+    background-color: blue;
+    margin-bottom: 3px;
+}
+.close-button
+{
+    width:10%;
+    text-align: center;
+}
